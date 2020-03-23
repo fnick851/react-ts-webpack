@@ -1,5 +1,4 @@
 import * as React from "react"
-import "./App.css"
 
 interface Props {
   name: string
@@ -7,7 +6,11 @@ interface Props {
 
 const App = (props: Props) => {
   const { name } = props
-  return <h1>Hello {name}</h1>
+  return (
+    <div className="bg-gray-500">
+      <h1 className="text-noahred">Hello {name}</h1>
+    </div>
+  )
 }
 
 export default App
