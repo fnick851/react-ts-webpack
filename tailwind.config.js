@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        noahred: "red",
+        noahred: 'red',
       },
     },
   },
